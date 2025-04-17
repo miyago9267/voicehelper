@@ -1,16 +1,30 @@
-# voicehelper
+# VoiceHelper
 
-A new Flutter project.
+本專案是使用 Flutter 開發的語音練習應用，支援：
 
-## Getting Started
+- 點擊按鈕播放文字語音（TTS）
+- 點擊按鈕進行語音辨識（STT）並即時顯示辨識結果
 
-This project is a starting point for a Flutter application.
+此為 Flutter 練習用途，僅包含 Android 平台基本功能測試。
 
-A few resources to get you started if this is your first Flutter project:
+## 開始使用
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+git clone https://github.com/your_name/voicehelper.git
+cd voicehelper
+flutter pub get
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 技術簡介
+
+- Flutter 3.x
+- Dart
+- flutter_tts
+- speech_to_text
+- permission_handler
+
+## 平台支援
+
+✅ Android
+🚧 iOS（未測試）(誰要贊助我iphone)
